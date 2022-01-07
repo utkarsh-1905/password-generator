@@ -106,8 +106,9 @@ const clickCopy = document.querySelector(".clickCopy");
 clickCopy.addEventListener("click", (e) => {
   const password = show.innerText;
   navigator.clipboard.writeText(password);
-  copy.attributes[0].value = 'clipboard-check.svg';
-  setTimeout(() =>{
-    copy.attributes[0].value ='clipboard.svg'
-  },5000)
+  copy.attributes[0].value = "clipboard-check.svg";
+  setTimeout(() => {
+    copy.attributes[0].value = "clipboard.svg";
+  }, 5000);
 });
+
