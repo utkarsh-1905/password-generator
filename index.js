@@ -106,9 +106,9 @@ const clickCopy = document.querySelector(".clickCopy");
 clickCopy.addEventListener("click", (e) => {
   const password = show.innerText;
   navigator.clipboard.writeText(password);
-  copy.attributes[0].value = "clipboard-check.svg";
+  copy.attributes[0].value = "assets/clipboard-check.svg";
   setTimeout(() => {
-    copy.attributes[0].value = "clipboard.svg";
+    copy.attributes[0].value = "assets/clipboard.svg";
   }, 5000);
 });
 

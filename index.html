@@ -13,8 +13,8 @@
     <title>Random Password Generator</title>
   </head>
 
-  <body class="container col-md-6 d-flex flex-column">
-    <div class="card mt-5">
+  <body class="container h-100 w-100">
+    <div class="card mt-5 col-6 offset-3 shadow-lg mb-5 w-50">
       <div class="card-body">
         <h5 class="card-title text-center mb-3 display-4">
           Generate a Password!
@@ -27,7 +27,7 @@
               <p class="show lead pb-0">...click to copy password</p>
             </div>
             <div class="h-100 text-center mt-auto mb-auto border-start border-dark">
-              <img src="clipboard.svg" class="rounded copy p-1 mb-auto mt-auto" alt="Copy" />
+              <img src="assets/clipboard.svg" class="rounded copy p-1 mb-auto mt-auto" alt="Copy" />
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@
             />
             <label for="length" class="form-label">Length</label>
           </div>
-          <p class="lead">Things to include:</p>
+          <p class="lead">Characters to include:</p>
           <div class="mb-3 form-check">
             <label for="numbers" class="form-check-label">Numbers(1-9)</label>
             <input
@@ -88,10 +88,25 @@
               id="symbols"
             />
           </div>
-          <button class="btn btn-success w-100">Generate</button>
+          <button class="btn btn-dark w-100">Generate</button>
         </form>
+        <div class="alert alert-info mt-3 mb-3 small"><img src="assets/info-circle.svg" class="me-3" alt="info">
+          <ul class="ms-2 mt-0">
+            <li>Minimum Length is 6.</li>
+            <li>Maximum Length is 69.</li>
+            <li>Strong password must contain 10-16 characters.</li>
+          </ul>
+        </div>
       </div>
     </div>
+    <style>
+      body{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./assets/gradient.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
