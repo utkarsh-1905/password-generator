@@ -7,4 +7,4 @@ For styling, I have used **Bootstrap 5**. It is also _mobile responsive_.
 
 You can visit the app [here](https://generateapassword.web.app/).
 
-![Password-Generator](ss.png)
+![Password-Generator](assets/ss.png)
