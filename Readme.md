@@ -5,4 +5,6 @@ As we know, in today's world our whole life is online, so a strong password is v
 This app is build using vanilla JavaScript. It creates a highly random and secure password using all the allowed **ASCII** characters for password generation.
 For styling, I have used **Bootstrap 5**. It is also _mobile responsive_.
 
+You can visit the app [here](https://generateapassword.web.app/).
+
 ![Password-Generator](ss.png)
