@@ -112,6 +112,27 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDKrOTvDzpoPr0SDtRlrpkd7GTN1puDOTY",
+        authDomain: "password-strong-generator.firebaseapp.com",
+        projectId: "password-strong-generator",
+        storageBucket: "password-strong-generator.appspot.com",
+        messagingSenderId: "1053017747706",
+        appId: "1:1053017747706:web:c26e3e8199eac6efa61943"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+
     <script src="index.js"></script>
   </body>
 </html>
