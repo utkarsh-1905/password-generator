@@ -92,7 +92,7 @@ form.addEventListener("submit", (e) => {
 const passwordGenerator = (limit) => {
   let password = "";
   let choiceLen = choices.length;
-  for (let i = 0; i <= limit; i++) {
+  for (let i = 0; i < limit; i++) {
     const randomArray = choices[randomNumber(choiceLen)];
     let len = randomArray.length;
     password += randomArray[randomNumber(len)];
